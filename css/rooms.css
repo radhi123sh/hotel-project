@@ -6,7 +6,7 @@
     position: relative;
 }
 .rooms_Sec{
-    margin-top: 80px;
+    margin-top: 50px;
 }
 .room_Img{
     width: 100%;
@@ -19,6 +19,7 @@
 }
 .rooms_detailDiv{
     border: 1px solid gainsboro;
+    margin: 30px 0px;
 }
 
 .star_rating{
@@ -33,8 +34,56 @@
 }
 .star_rating ul li i{
     font-size: 13px;
-    color: #0f3556;
+    color: #b0914f;
 }
 .details_Sec{
-    padding: 20px;
+    padding: 30px 30px 0px;
+}
+.details_Sec h3 a{
+    color: #0f3556;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.tag16{
+    padding: 10px 0px;
+    font-size: 16px;
+    color: #828c95;
+    margin-bottom: 0px;
+}
+.details_room{
+    list-style-type: none;
+}
+.details_room li{
+    color: #5e6976;
+font-size: 17px;
+padding-bottom: 5px;
+}
+.details_room li span{
+margin-left: 10px;
+}
+.price-sec{
+    border-top: 1px solid gainsboro;
+    padding: 20px 20px 10px;
+}
+.price-sec h4{
+    font-size: 15px;
+color: #828c95;
+}
+.price-sec h4 span{
+    color: #263e5b;
+font-size: 36px;
+font-weight: 700;
+}
+.tag17{
+    float: right;
+}
+.tag17 a{
+    font-size: 19px;
+    font-weight: normal;
+    color: #b0914f;
+    border-bottom: 1px solid #0f3556;
+}
+.tag17 a:hover{
+    text-decoration: none;
+    color: #0f3556;
 }
