@@ -1,0 +1,150 @@
+
+.detail_sec{
+    margin: 40px 0px 20px;
+}
+.lux_div{
+    width: 100%;
+    overflow: hidden;
+}
+.lux_div img{
+    width: 100%;
+}
+.tag18{
+    padding-top: 20px;
+font-size: 20px;
+
+font-family: 'Crimson Text', serif;
+}
+.tag19{
+    float: right;
+    font-size: 16px;
+}
+.tag20{
+    font-size: 25px;
+    font-weight: bold
+}
+.tag20 span{
+    font-size: 15px;
+    color: #999;
+}
+.price{
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 20px;
+}
+.room_iconList{
+    margin: 30px 0px;
+    border-right: 1px solid gainsboro;
+}
+.room_iconList ul{
+    list-style-type: none;
+}
+.room_iconList ul li{
+    padding: 8px 0px;
+    color: #0f3556;
+    
+}
+.room_iconList ul li i{
+    color: #b0914f;
+}
+.room_iconList ul li span{
+    padding-left: 15px;
+    color: #0f3556;
+    font-size: 14px;
+}
+.tag21{
+    margin: 30px 0px;  
+    font-size: 14px;
+color: #999;
+line-height: 1.8;
+}
+.btn_div{
+    text-align: center;
+}
+.bookNow_btn4{
+    background: #0f3556;
+    border: 2px solid #0f3556;
+    color: white;
+    padding: 8px 35px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+.bookNow_btn4:hover{
+    background: white;
+    text-decoration: none;
+    color: black;
+}
+.search_btn2 input[type=text] {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+.search_btn2 button {
+    float: left;
+    width: 20%;
+    padding: 9px;
+    background: #0f3556;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-left: none;
+    cursor: pointer;
+}
+.tag22{
+    border-bottom: 2px solid gainsboro;
+    margin-top: 80px;
+    font-size: 18px;
+    padding-bottom: 10px;
+   position: relative;  
+}
+.tag22::after{
+    position: absolute;
+    content: "";
+    background: #0f3556;
+    width: 24%;
+    height: 3px;
+    top: 30px;
+    left: 0;
+}
+.header_icon2{
+    margin-top: 20px;
+}
+.header_icon2 ul{
+    list-style-type: none;
+
+}
+.header_icon2 ul li{
+    display: inline-flex;
+    padding: 5px;
+}
+.link_div{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid gainsboro;
+    text-align: center;
+    padding: 7px;
+    color: #0f3556;
+}
+/* .link_div a i{
+    color: #0f3556;
+} */
+.tag23{
+    border-bottom: 2px solid gainsboro;
+    margin-top: 20px;
+    font-size: 18px;
+    padding-bottom: 10px;
+   position: relative;  
+}
+.tag23::after{
+    position: absolute;
+    content: "";
+    background: #0f3556;
+    width: 24%;
+    height: 3px;
+    top: 30px;
+    left: 0;
+}
