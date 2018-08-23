@@ -277,7 +277,9 @@ transition: all 0.3s ease-in;
     padding-left: 0px;
      width: 100%;
 }
-
+.booking_form .form-group input:focus{
+    box-shadow: none;
+}
 .booking_box p{
    font-size: 17px;
     text-align: left;

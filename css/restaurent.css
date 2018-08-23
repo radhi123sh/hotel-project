@@ -7,3 +7,179 @@
     position: relative;
 
 }
+/* .rest_heading{
+    margin-bottom: 60px;
+} */
+.rest_img1{
+    margin-top: 35px;
+    outline: 1px solid #f6fbfd;
+outline-offset: -10px;
+}
+.about_rest{
+    margin: 50px 0px 40px;
+}
+.about_rest h2{
+    font-family: 'Playball', cursive;
+    color: #0f3556;
+}
+.first-letter{
+    line-height: 30px;
+    margin-top: 60px;
+    text-align: left;
+}
+.first-letter::first-letter{
+    font-size: 50px;
+color: #c5a866;
+margin-right: 3px;
+}
+.menu_img{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+    position: relative;
+}
+.menu_name{
+    position: absolute;
+    z-index: 99;
+    background: rgba(0, 0, 0,0.8);
+    padding: 10px 50px;
+    top: 65%;
+    left: 0;
+    font-size: 18px;
+color: white;
+}
+.menu_img img{
+    width: 100%;
+}
+.menu_sec{
+    padding: 10px 0px 10px;
+}
+.tag26{
+    color: #0f3556;
+    font-weight: bold;
+    font-family: 'Playball', cursive;
+    position: relative;
+}
+
+.tag26::after{
+position: absolute;
+content: "";
+width: 5%;
+height: 3px;
+background: #0f3556;
+top: 38px;
+left: 48%;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+transform: scaleX(0);
+transform-origin: 50% 50% 0; 
+bottom: 5%;
+color: #ffffff;
+height: 90%;
+left: 5%;
+ opacity: 0; 
+position: absolute;
+transition: all 0.5s ease-out 0.15s;
+width: 90%;
+text-align: center;
+padding: 30px;
+}
+.overlay h3{
+border-bottom: 2px solid #c5a866;
+padding-bottom: 10px;
+display: inline-block;
+font-size: 18px;
+}
+.read-more{
+    border: 2px solid #c5a866;
+    background:transparent;
+
+    padding: 10px 20px;
+    color: white;
+  border-radius: 0px 13px; 
+}
+.read-more:hover{
+    text-decoration: none;
+    background: transparent;
+    color: white;
+}
+.menu_img:hover .overlay{
+    transform: scaleX(1);   
+    opacity: 1;
+    z-index: 9999;
+}
+.menu_img:hover .menu_name{
+    opacity: 0;
+}
+.reseve_sec{
+    margin:40px 0px 20px;
+    background-image: linear-gradient(rgba(0, 0, 0,0.8),rgba(0, 0, 0,0.8)),url("../images/rest.jpg");
+    background-size: cover;
+
+ position: relative;
+ background-position: center center;
+ background-attachment: fixed;
+}
+.Reserv_div{
+    background-color: rgba(0, 0, 0, 0.58);
+    height: auto;
+    padding: 60px 40px 50px;
+    display: inline-block;
+    width: 100%;
+}
+.tag27{
+color: white;
+font-size: 35px;
+
+font-family: 'Playball', cursive;
+}
+.tag28{
+    color: #c5a866;
+    font-size: 30px;
+    position: relative;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.tag28::after{
+    position: absolute;
+width: 115px;
+content: "";
+background: white;
+bottom: -14px;
+left: 36%;
+height: 3px;
+}
+.reserve_form{
+    margin-top: 70px;
+}
+.reserve_form .form-group input{
+    border: 1px solid white;
+    border-radius: 0;
+    background: transparent;
+    font-size: 14px;
+    color: white;
+}
+.reserve_form .form-group input:focus{
+    box-shadow: none;
+}
+.reserve_btn{
+    border: 3px solid #c5a866;
+background: transparent;
+color: white;
+padding: 6px 57px;
+
+}
+.clock_box {
+    text-align: center;
+    width: 100%;
+
+}
+.clock{
+    position: relative;
+    margin-top: 100px;
+    display: block;
+}
+.hh{
+    position: absolute;
+}
