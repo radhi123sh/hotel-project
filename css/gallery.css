@@ -1,0 +1,98 @@
+.gallery_heading{
+
+    font-family: 'Playball', cursive;
+    color: #0f3556;
+}
+
+.gall_img{
+    width: 100%;
+    overflow: hidden;
+}
+.gall_img img{
+    width: 100%;
+
+}
+.gallery_heading{
+    margin: 60px 0px 60px;
+}
+.img_zoom{
+    transform: scale(1);
+    transition: all 0.4s ease-in;
+    overflow: hidden;
+}
+.img_zoom:hover{
+    transform: scale(1.1);
+}
+#img_one{
+    margin-bottom: 30px;
+}
+#img_two{
+    margin-top: 30px;
+}
+#img_third{
+    max-height: 490px;
+}
+.gall_grid{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    outline: 1px solid #f6fbfd;
+outline-offset: -21px;
+}
+.gall_grid img{
+    width: 100%;
+}
+.galleryGrid_sec{
+    margin-top: 60px;
+}
+.gall_grid::after{
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    bottom: 20px;
+    content: '';
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.4s;
+    z-index: 5;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+
+    transform: scale(0, 1);
+}
+.gall_grid::before{
+    border-right: 5px solid #fff;
+    border-left: 5px solid #fff;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    bottom: 20px;
+    content: '';
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.4s, -webkit-transform 0.4s;
+    z-index: 5;
+    transform: scale(1, 0);
+
+}
+ .gall_grid:hover::after, .gall_grid:hover::before{
+    transform: scale(1);
+    transform-origin: center;
+    opacity: 1;
+}
+.gall_grid:hover .grid_overlay{
+    opacity: 1;
+}
+.grid_overlay{
+    position: absolute;
+    background: #0f3556;
+    color: white;
+    padding: 13px 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 4px;
+    opacity: 0;
+    font-family: 'Playball', cursive;
+    transition: all 0.3s ease;
+}

@@ -1,5 +1,5 @@
 .rest_bgImg{
-    background-image: linear-gradient(rgba(0, 0, 0,0.8),rgba(0, 0, 0,0.8)),url("../images/rest.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url("../images/rest.jpg");
     background-size: cover; 
      height: 400px; 
 
@@ -91,6 +91,9 @@ padding-bottom: 10px;
 display: inline-block;
 font-size: 18px;
 }
+.overlay p{
+    padding: 20px 0px;
+}
 .read-more{
     border: 2px solid #c5a866;
     background:transparent;
@@ -113,8 +116,8 @@ font-size: 18px;
     opacity: 0;
 }
 .reseve_sec{
-    margin:40px 0px 20px;
-    background-image: linear-gradient(rgba(0, 0, 0,0.8),rgba(0, 0, 0,0.8)),url("../images/rest.jpg");
+    margin-top:40px;
+    background-image: linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url("../images/rest.jpg");
     background-size: cover;
 
  position: relative;
@@ -146,12 +149,12 @@ font-family: 'Playball', cursive;
 width: 115px;
 content: "";
 background: white;
-bottom: -14px;
+bottom: -20px;
 left: 36%;
 height: 3px;
 }
 .reserve_form{
-    margin-top: 70px;
+    margin-top: 50px;
 }
 .reserve_form .form-group input{
     border: 1px solid white;
@@ -159,6 +162,7 @@ height: 3px;
     background: transparent;
     font-size: 14px;
     color: white;
+    margin-top: 45px;
 }
 .reserve_form .form-group input:focus{
     box-shadow: none;
@@ -168,7 +172,7 @@ height: 3px;
 background: transparent;
 color: white;
 padding: 6px 57px;
-
+margin-top: 40px;
 }
 .clock_box {
     text-align: center;
@@ -177,9 +181,37 @@ padding: 6px 57px;
 }
 .clock{
     position: relative;
-    margin-top: 100px;
+    margin:100px auto;
     display: block;
+    background: transparent;
+border-radius: 50%;
+height: 280px;
+width: 280px;
 }
 .hh{
     position: absolute;
+    left: 0;
+    top: 0;
+transform: rotate(45deg);
 }
+.mh{
+    position: absolute;
+    left: 0;
+    top: 0;
+transform: rotate(130deg);  
+}
+.sh{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform-origin: right;
+    animation: animate 4s linear;
+}
+ @keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} 
