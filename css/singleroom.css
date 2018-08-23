@@ -134,7 +134,7 @@ line-height: 1.8;
 } */
 .tag23{
     border-bottom: 2px solid gainsboro;
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 18px;
     padding-bottom: 10px;
    position: relative;  
@@ -147,4 +147,36 @@ line-height: 1.8;
     height: 3px;
     top: 30px;
     left: 0;
+}
+.catg_div{
+    margin-top: 30px;
+}
+.catg_div ul{
+    list-style-type: none;
+}
+.catg_div ul li{
+    padding: 7px;
+}
+.catg_div ul li a{
+    color: #777777;
+}
+.catg_div ul li a:hover{
+    text-decoration: none;
+}
+.catg_div ul li a span{
+    padding-left: 10px;
+}
+.e_date{
+    background: #222222;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    margin-top: 20px;
+}
+.e_date:hover{
+    background: #0f3556;
+}
+.tag24{
+    color: #666;
+    margin-top: 20px;
 }

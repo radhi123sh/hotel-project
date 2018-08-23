@@ -1,0 +1,9 @@
+.rest_bgImg{
+    background-image: linear-gradient(rgba(0, 0, 0,0.8),rgba(0, 0, 0,0.8)),url("../images/rest.jpg");
+    background-size: cover; 
+     height: 400px; 
+
+  background-position: center center;
+    position: relative;
+
+}
