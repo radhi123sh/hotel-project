@@ -68,18 +68,18 @@
                                         <li class="logo_div"><a href="#">
                                        <img src="images/LOGO.png" alt="logo"></a></li>
                                         <li class=" main_menu">
-                                            <a href="#">Wedding & Events
+                                            <a href="">Wedding & Events
                                              <i class="fas fa-caret-down"></i></a> 
                                              <ul class="sub-menu" id="events">
-                                                    <li><a href="#">Wedding</a></li>
+                                                    <li><a href="wedding.html" target="_blank">Wedding</a></li>
                                                     <li><a href="#">Party</a></li>
                                                     <li><a href="#">Conference Hall</a></li>
                                                    
                                             </ul> 
                                         </li>
                                         <li><a href="gallery.html" target="_blank">Gallery</a></li>
-                                        <li><a href="#">Activities</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="activity.html" target="_blank">Activities</a></li>
+                                        <li><a href="contact.html" target="_blank">Contact</a></li>
                                     </ul>
                            </div>
                     </div>
@@ -454,50 +454,44 @@
    
 <!-- ==============================script==================== -->        
 <script>
-   
+
         $(document).ready(function(){
-            $(window).scroll(function(){
-              var scroll = $(window).scrollTop();
-               if (scroll > 200) {
-                $(".navv").addClass('stick_tab_1');
-                 }
-    
-                else{
-                    $(".navv").removeClass('stick_tab_1');  
+           $(window).scroll(function(){
+             var scroll = $(window).scrollTop();
+              if (scroll > 200) {
+                  $(".navv").css("background" , "black");
+                  $(".sub-menu").css("background" , "black");
+                  $(".navv").addClass('stick_tab_1');
                 }
-            })
-        })
-      </script>  
-      <script>
- 
-         $(document).ready(function(){
-            $(window).scroll(function(){
-              var scroll = $(window).scrollTop();
-               if (scroll > 200) {
-                   $(".navv").css("background" , "black");
-                 }
+   
+               else{
+                    $(".navv").css("background" , "rgba(255,255,255,0.2)");
+                    $(".navv").removeClass('stick_tab_1'); 
+                    $(".sub-menu").css("background" , "rgba(255,255,255,0.2)");   	
+               }
+           })
+       })
+   </script> 
     
-                else{
-                     $(".navv").css("background" , "rgba(255,255,255,0.2)");  	
-                }
-            })
-        })
-    </script> 
-     <script>
- 
-             $(document).ready(function(){
-                $(window).scroll(function(){
-                  var scroll = $(window).scrollTop();
-                   if (scroll > 200) {
-                       $(".sub-menu").css("background" , "black");
-                     }
-        
-                    else{
-                         $(".sub-menu").css("background" , "rgba(255,255,255,0.2)");  	
-                    }
-                })
-            })
-        </script> 
+<script>
+      /*Scroll to top when arrow up clicked BEGIN*/
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#myBtn').fadeIn();
+    } else {
+        $('#myBtn').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $("#myBtn").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+});
+</script>
 
          <!-- counter -->
  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js">

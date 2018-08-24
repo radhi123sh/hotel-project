@@ -1,15 +1,15 @@
 .contact_sec{
 margin-top: 80px;
 }
-.cont_div{
+.cont_text{
     padding: 20px 0px;
 }
-.cont_div h1{
+.tag29{
     font-family: 'Playball', cursive;
     position: relative;
     padding-bottom: 30px;
 }
-.cont_div h1::after{
+.tag29::after{
 position: absolute;
 content: "";
 width: 70px;
@@ -18,7 +18,7 @@ background: #d6d6d6;
 top: 58px;
 left: 0;
 }
-.cont_div p{
+.cont_text p{
     font-size: 16px;
 color: #777777;
 margin-top: 30px;
@@ -41,7 +41,7 @@ text-decoration: none;
     color: #666;
 }
 .contact_form{
-    margin-top: 100px;
+    margin-top: 15px;
 }
 .contact_form .form-group input{
     height: 50px;
@@ -96,3 +96,7 @@ transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     text-decoration: none;
     color: black;
 }
+.cont_div{
+    padding: 20px 0px;
+}
+

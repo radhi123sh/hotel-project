@@ -330,6 +330,8 @@ transition: all 0.3s ease-in;
     padding-bottom: 10px;
     font-size: 40px;
     position: relative;
+    font-family: 'Playball', cursive;
+    color: #0f3556;
 }
 .tag2::after{
     position: absolute;
@@ -376,7 +378,7 @@ border: 6px solid #0f3556;
 }
 .image_text {
    
-    padding: 0px 20px ;
+    padding: 40px 20px ;
 }
 .image_text h4{
     position: relative;

@@ -1,0 +1,23 @@
+.wedding_slider{
+    margin: 50px 0px;
+    position: relative;
+}
+.wedding_text{
+    padding: 30px;
+    text-align: left;
+
+}
+.wedding_text h3{
+    font-family: 'Playball', cursive;
+    color: #0f3556;
+    font-weight: bold;
+}
+.wedding_text p{
+    font-size: 15px;
+line-height: 1.8;
+color: #777;
+}
+
+.wedd_slider2{
+margin-top: 60px;
+}

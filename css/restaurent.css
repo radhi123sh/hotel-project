@@ -204,8 +204,7 @@ transform: rotate(130deg);
     position: absolute;
     left: 0;
     top: 0;
-    transform-origin: right;
-    animation: animate 4s linear;
+ 
 }
  /* @keyframes animate{
     0%{

@@ -1,0 +1,69 @@
+.activities_heading{
+    margin: 80px 0px 30px;
+}
+.sec-title2{
+    position: relative;
+
+}
+.sec-title2 h2{
+    position: relative;
+top: 0px;
+font-size: 48px;
+font-weight: 400;
+color: #0f3556;
+line-height: 1em;
+z-index: 2;
+padding: 50px 35px 0px;
+text-transform: capitalize;
+
+display: inline-block;
+font-family: 'Playball', cursive;
+
+}
+.sec-title2 h3{
+    position: absolute;
+padding-left: 32px;
+top: 16px;
+font-size: 48px;
+font-weight: 700;
+line-height: 1.4em;
+text-transform: uppercase;
+color: #eef3f5;
+left: 35%;
+}
+.activity_sec{
+    margin-top: 50px;
+}
+.activity_div{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+.activity_img{
+    width: 100%;
+    overflow: hidden;
+}
+.activity_img img{
+    width: 100%;
+    transform: scale(1);
+    transition: all 0.4s ease-in;
+}
+.activity_img img:hover{
+    transform: scale(1.1);
+}
+.activity_text{
+    padding: 10px;
+}
+.activity_text h3{
+    font-size: 22px;
+padding-top: 10px;
+
+}
+.activity_text h5{
+    color: #666;
+font-size: 16px;
+}
+.activity_text p{
+    color: #5f5643;
+font-size: 15px;
+padding: 5px 10px;
+}

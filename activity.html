@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> single Rooms</title>
+    <title>Activities</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/rooms.css">
-    <link rel="stylesheet" href="css/singleroom.css">
+    <!-- <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/animate.css"> -->
+    <link rel="stylesheet" href="css/activity.css">
     <link rel="stylesheet" href="css/about.css">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap-grid.css" rel="stylesheet" type="text/css" > 
@@ -33,18 +34,16 @@
 </head>
 <body>
 
-<!-- ===========================navbar================== -->
+<!-- ===========================navbar==================================== -->
    <div class="navv" id="Navbar">
         <div class="container ">
                 <div class="row mx-0">
                     <div class="col-md-12">
                            <div class="navbar_div">
                                 <ul class="navbar">
-                                     <li>
-                                         <a href="index.html" target="_blank" >Home</a></li>
-                                    <li> 
-                                      <a href="about.html" target="_blank"  class="design2" >
-                                        About us</a>  </li>
+                                        <li><a href="index.html" >Home</a></li>
+                                        <li> 
+                                            <a href="about.html" class="design2" >About us</a>  </li>
                                         <li  class=" main_menu">
                                         <a href="#">Restaurent
                                              <i class="fas fa-caret-down"></i></a>
@@ -59,7 +58,8 @@
                                                 <i class="fas fa-caret-down"></i></a>
                                          
                                             <ul class="sub-menu " >
-                                                    <li><a href="rooms.html"> Our Rooms</a></li>
+                                             <li>
+                                            <a href="rooms.html" target="_blank"> Our Rooms</a></li>
                                                     <li><a href="singleroom.html" target="_blank">Luxury Room</a></li>
                                                     <li><a href="#">Deluxe Room</a></li>
                                                     <li><a href="#">Superior Room</a></li>
@@ -91,10 +91,10 @@
 <div class="slider1">
    <div class="about_bgImg">
             <div class="about_box">
-                <h2>Luxury Rooms</h2>
+                <h2>Activities</h2>
                     <ul>
                         <li id="first"> <a href="index.html">HOME</a></li>
-                        <li> <a href="about.html">Luxury ROOMS</a></li>
+                        <li> <a href="about.html">Activities</a></li>
                     </ul>
             </div>
    </div>
@@ -104,142 +104,91 @@
 <button  id="myBtn" title="Go to top" class="top_btn"> 
     <i class="fas fa-arrow-up"></i>
 </button>
-<!-- ===============room section=========================-->
-<section class="detail_sec">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                  
-                        <div class="lux_div">
-                                <img src="images/luxury.png" alt="images">
-                        </div>
-                        <div class="price">
-                                <h3 class="tag18"> Luxury Room
-                                        <span class="star_rating"> 
-                                            <ul>
-                                                <li> <i class="fas fa-star"></i></li>
-                                                <li> <i class="fas fa-star"></i></li>
-                                                <li> <i class="fas fa-star"></i></li>
-                                                <li> <i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <span class="tag19"> (4.3 / 5 Ratings)</span>
-                                        </span>
-                               </h3>
-                                 
-                            <h4 class="tag20"> $350<span> / Day</span>  </h4>
-                        </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="room_iconList">
-                            <ul>
-                                <li><i class="fas fa-utensils"></i>
-                                    <span>TASTY RESTAURANT</span></li>
-                                <li><i class="fas fa-tint"></i>
-                                    <span>PURIFIED DRINKING WATER </span></li>
-                                <li>  <i class="fas fa-glass-martini"></i>
-                                    <span>FINEST QUISINE </span></li>
-                                <li><i class="fas fa-wifi"></i> 
-                                        <span>HIGH SPEED WIFI</span></li>
-                              <li> <i class="fas fa-shopping-bag"></i>
-                             <span>SHOPPING CENTER </span>
-                            </li>
-                             
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-8">
-                        <p class="tag21">They call him Flipper Flipper faster than lightning no one you see is smarter than he black gold all of them had hair of gold like their mother the young one in curls never heard the word impossible you wanna be where you can see our troubles are all the same you wanna be where everybody knows your name than lightning be where you can see our troubles are all the same you wanna be where no one he where everybody knows your black gold.
 
-                        </p>
+<section class="activities_heading text-center">
+    <div class="sec-title2">
+            <h2>Activities in Sparta</h2>
+            <h3>Get Involved</h3>
+                   
+        </div>
+     <img src="images/title-icon.png" alt="images">
+              
+</section>
+<!-- ==================================activities================= -->
+<section class="activity_sec">
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="activity_div">
+                <div class="activity_img">
+                     <img src="images/ac-camping.jpg" alt="images"> </div>
+                <div class="activity_text text-center">
+                    <h3>Camping</h3>
+                    <h5>With Pure Nature</h5>
+                    <p>Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+                <div class="activity_div">
+                    <div class="activity_img">
+                         <img src="images/ac-trekking.jpg" alt="images"> </div>
+                    <div class="activity_text text-center">
+                        <h3>Trekking</h3>
+                        <h5>In Open Wilderness</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis.</p>
                     </div>
                 </div>
-                  <div class="btn_div">  <a href="#" class="bookNow_btn4">Book Now</a></div>
+            </div>
+            <div class="col-md-4">
+                    <div class="activity_div">
+                        <div class="activity_img">
+                             <img src="images/ac-rafting.jpg" alt="images"> </div>
+                        <div class="activity_text text-center">
+                            <h3>River Rafting</h3>
+                            <h5>In Lush Forest</h5>
+                            <p>Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
+                        </div>
+                    </div>
+                </div>
+    </div>
+
+    <div class="row">
+            <div class="col-md-4">
+                <div class="activity_div">
+                    <div class="activity_img">
+                         <img src="images/ac-rope.jpg" alt="images"> </div>
+                    <div class="activity_text text-center">
+                        <h3>Rope Travel</h3>
+                        <h5>With Safety Gears</h5>
+                        <p>Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                    <div class="activity_div">
+                        <div class="activity_img">
+                             <img src="images/ac-climbing.jpg" alt="images"> </div>
+                        <div class="activity_text text-center">
+                            <h3>Mountain Climbing</h3>
+                            <h5>In Open Wilderness</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <div>
-                        <form class="search_btn2">
-                                <input type="text" placeholder="Search.." name="search">
-                                <button type="submit"><i class="fa fa-search"></i></button>
-                        </form>
-                    </div>
-                           
-                       <h3 class="tag22">Follow us</h3>
-                       <div class="header_icon2">
-                            <ul >
-                                    <li><a href="#">
-                                            <div class="link_div"><i class="fab fa-facebook-f"></i></div></a></li>
-                                        <li><a href="#">
-                                            <div class="link_div"><i class="fab fa-google-plus-g"></i></div></a></li>
-                                        <li><a href="#">
-                                            <div class="link_div"><i class="fab fa-pinterest-p"></i></div></a></li>
-                                        <li><a href="#">
-                                            <div class="link_div"><i class="fab fa-twitter"></i></div></a></li>
-                                        <li><a href="#">
-                                            <div class="link_div"><i class="fab fa-instagram"></i></div></a></li>
-                                </ul>
-                       </div>
-                       <h3 class="tag23">Categories</h3>
-                       <div class="catg_div">
-                            <ul>
-                                <li> 
-                                  <a href="#">
-                                       <i class="fas fa-angle-double-right"> </i>
-                                       <span>Luxury room <b>(06)</b></span>
-                                    </a>
-                                </li>
-                                 <li> 
-                                   <a href="#">
-                                    <i class="fas fa-angle-double-right"></i> 
-                                    <span> Single room <b>(13)</b></span>
-                                </a>
-                                </li>
-                                 <li> 
-                                    <a href="#">
-                                     <i class="fas fa-angle-double-right"></i>
-                                     <span> Double room <b>(22)</b></span>
-                                    </a>
-                                </li>
-                                 <li> 
-                                  <a href="#">
-                                    <i class="fas fa-angle-double-right"> </i>
-                                    <span>Delux room  <b>(38)</b></span>
-                                  </a>
-                                </li>
-                                 <li> 
-                                   <a href="#">
-                                   <i class="fas fa-angle-double-right"> </i>
-                                    <span>Fmaily room  <b>(19)</b></span>
-                                     </a>
-                                    
-                                    </li>
-                            </ul>
+                        <div class="activity_div">
+                            <div class="activity_img">
+                                 <img src="images/ac-caravan.jpg" alt="images"> </div>
+                            <div class="activity_text text-center">
+                                <h3>Caravan Stays</h3>
+                                <h5>Enjoy the Wild Nights</h5>
+                                <p>Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
+                            </div>
                         </div>
-                        <h3 class="tag23">Events</h3>
-                           <div class="row">
-                               <div class="col-md-3">
-                                   <div class="e_date"> <b>04</b> June</div>
-                               </div>
-                               <div class="col-md-9">
-                                   <p class="tag24">The lightning no one you see is the smarter lightning</p>
-                               </div>
-                               <div class="col-md-3">
-                                    <div class="e_date"> <b>11</b> July</div>
-                                </div>
-                                <div class="col-md-9">
-                                    <p class="tag24">Travelled down the road and the back again</p>
-                                </div>
-                                <div class="col-md-3">
-                                        <div class="e_date"> <b>26 </b> Sept</div>
-                                    </div>
-                                    <div class="col-md-9">
-                                        <p class="tag24">Beats all you've ever saw been in trouble with the law</p>
-                                    </div>
-                           </div>
-                        
-                </div>
+                    </div>
         </div>
-    </div>
+</div>
 </section>
 <!-- ====================================footer============================== -->
 <section class="footer">
@@ -323,9 +272,11 @@
        </div>
    </section>
            
-   <!-- ========================script======================== -->
-   
-   <script>
+
+
+<!-- ==============================script==================== -->        
+
+<script>
 
         $(document).ready(function(){
            $(window).scroll(function(){
@@ -364,6 +315,5 @@ $(document).ready(function() {
 
 });
 </script>
-    
 </body>
 </html>
