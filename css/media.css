@@ -1,0 +1,19 @@
+@media screen and (max-width: 370px){
+    .header{
+        display: none;
+}
+.header_row{
+    display: none;
+}
+.navv{
+    display: none;
+}
+.booking_schedule{
+    /* position: absolute; */
+    /* top:70%; */
+   z-index: 999 !important;
+    /* width: 100%; */
+}
+
+
+}

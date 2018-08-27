@@ -214,3 +214,16 @@ transform: rotate(130deg);
         transform: rotate(360deg);
     }
 }  */
+.call_reservation{
+    padding: 30px 0px;
+    background: #f5f5f5;
+}
+.call_reservation p{
+    font-size: 20px;
+color: #6f6f6f;
+}
+.call_reservation h3{
+    font-size: 40px;
+    color: #c5a866;
+    margin-bottom: 0px;
+}
