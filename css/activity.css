@@ -67,3 +67,18 @@ font-size: 16px;
 font-size: 15px;
 padding: 5px 10px;
 }
+.view_moreBtn{
+    border: 2px solid #0f3556;
+background: #0f3556;
+font-size: 14px;
+padding: 5px 16px;
+border-radius: 4px;
+color: white;
+margin-bottom: 20px;
+transition: all 0.4s ease-in;
+cursor: pointer;
+}
+.view_moreBtn:hover{
+    background: transparent;
+    color: black;
+}

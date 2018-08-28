@@ -17,7 +17,7 @@
 }
 .img_zoom{
     transform: scale(1);
-    transition: all 0.4s ease-in;
+    transition: all 0.6s ease-in;
     overflow: hidden;
 }
 .img_zoom:hover{
@@ -55,14 +55,14 @@ outline-offset: -21px;
     opacity: 0;
     transition: opacity 0.3s, transform 0.4s;
     z-index: 5;
-    border-top: 5px solid #fff;
-    border-bottom: 5px solid #fff;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
 
     transform: scale(0, 1);
 }
 .gall_grid::before{
-    border-right: 5px solid #fff;
-    border-left: 5px solid #fff;
+    border-right: 3px solid #fff;
+    border-left: 3px solid #fff;
     position: absolute;
     left: 20px;
     right: 20px;

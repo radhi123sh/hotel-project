@@ -6,7 +6,7 @@
     background-image: linear-gradient(rgba(0, 0, 0,0.8),rgba(0, 0, 0,0.8)),url("../images/bg2.jpg");
     background-size: cover;
     height: 400px;
-
+background-position: center center;
     position: relative;
 }
 .design2{
@@ -81,6 +81,9 @@ right: -5px;
     line-height: 1.2em;
     font-size: 32px;
 }
+.service-title{
+    padding: 0px !important;
+}
 .tag9{
 
 color: #0f3556;
@@ -98,6 +101,7 @@ padding-left: 40px;
 .choose_us{
 margin: 40px 0px 40px;
 }
+
 .sec-title{
     position: relative;
 margin-bottom: 50px;
@@ -130,7 +134,7 @@ left: 0;
 }
 .ser_block{
     padding: 25px;
-   transition: all 0.3s ease;
+   transition: all 0.4s ease;
 }
 .ser_block:hover{
     box-shadow: 0px 4px 18px 0px rgba(187, 185, 185, 0.5);
@@ -237,9 +241,9 @@ outline-offset: -10px;
 font-size: 18px;
 margin: 10px 0px 40px;
 }
-.statistic-counter{
+.counter-value{
     color: #b0914f;
-    font-size: 40px;
+    font-size: 30px;
 }
 .counter_text{
     color: #0f3556 !important;

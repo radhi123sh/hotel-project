@@ -1,5 +1,5 @@
 .rest_bgImg{
-    background-image: linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url("../images/rest.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0,0.8),rgba(0, 0, 0,0.8)),url("../images/rest.jpg");
     background-size: cover; 
      height: 400px; 
 
@@ -7,9 +7,7 @@
     position: relative;
 
 }
-/* .rest_heading{
-    margin-bottom: 60px;
-} */
+
 .rest_img1{
     margin-top: 35px;
     outline: 1px solid #f6fbfd;
@@ -95,9 +93,9 @@ font-size: 18px;
     padding: 20px 0px;
 }
 .read-more{
-    border: 2px solid #c5a866;
-    background:transparent;
-
+    border: 2px solid #0f3556;
+    background:#0f3556;
+transition: all 0.4s ease;
     padding: 10px 20px;
     color: white;
   border-radius: 0px 13px; 
@@ -173,6 +171,10 @@ background: transparent;
 color: white;
 padding: 6px 57px;
 margin-top: 40px;
+transition: all 0.4s ease;
+}
+.reserve_btn:hover{
+    background: #c5a866;    
 }
 .clock_box {
     text-align: center;

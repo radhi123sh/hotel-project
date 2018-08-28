@@ -1,19 +1,365 @@
 @media screen and (max-width: 370px){
+
+    .image_text h4::after{
+        top: 55px;
+    }
+
+    /* =============rooms=============== */
+    .price-sec{
+        padding: 10px 20px 10px;
+    }
+    .price-sec h4 span{
+        font-size: 25px;
+    }
+    .tag17 a{
+        font-size: 13px;
+        padding: 7px;
+    }
+}
+@media screen and (max-width: 370px){
     .header{
         display: none;
 }
 .header_row{
     display: none;
 }
-.navv{
+.navbar_div{
     display: none;
 }
+.navv{
+    background: rgba(255,255,255,0.2);
+    top: 0px;
+}
+.hide_navBar{
+    position: relative;
+    display: block;
+}
+.img_text{
+    left: 18%;
+}
+.img_text h2{
+    font-size: 29px !important;
+}
+/* #myBtn i{
+    font-size: 14px;
+} */
+#myBtn {
+    padding: 4px 8px;
+    right: 15px;
+}
+.tag2{
+    font-size: 35px;
+}
 .booking_schedule{
-    /* position: absolute; */
-    /* top:70%; */
-   z-index: 999 !important;
-    /* width: 100%; */
+   
+    position: relative;
+}
+.logo{
+    display: inline;
+}
+.logo img{
+   margin: 5px;
+    height: 37px;
+}
+.booking_boxOuter{
+    padding-right: 15px !important;
+}
+.booking_box{
+padding-bottom: 0px;
+}
+.booking_form .form-group input, select{
+    padding-top: 0px;
+}
+.booking_form .form-group{
+    border-bottom: 0;
+}
+.welcome_div::before{
+    display: none;
+}
+.welcome_div{
+    margin-top: 30px;
+}
+.service_div{
+    margin-top: 0px;
 }
 
+.facilities_icon li{
+    padding: 10px 0px;
+}
+.news_box::after{
+    display: none;
+}
+.news_box2::after{
+display: none;
+}
+.gallery_image img{
+    max-height: 200px;
+}
+
+
+/* ==============================about page=================== */
+.about_box h2{
+    font-size: 21px !important;
+    text-align: center;
+}
+.about_box{
+    padding: 7px 19px;
+}
+
+.about_bgImg{
+    height: 300px;
+}
+.tag8{
+    text-align: center;
+}
+.service-title{
+    padding: 15px !important;
+ }
+ #icon_title{
+     text-align: center;
+     margin-bottom: 20px;    
+     margin-top: 20px;
+ }
+ #icon_title::after{
+    top: 35px;
+
+    left: 40%;
+ }
+ .tag13{
+     text-align: center;
+ }
+.counter_div{
+padding-left: 30px;
+}
+.counter_div p{
+    margin: 10px 0px 15px;
+}
+/* ================restaurant===================== */
+.rest_bgImg{
+    height: 300px;
+}
+.about_rest h2{
+    font-size: 21px;
+}
+.rest_img1 {
+    width: 100%;
+}
+.tag28{
+    font-size: 26px;
+}
+.tag28::after{
+    left: 31%;
+    width: 100px;
+}
+.call_reservation h3{
+    font-size: 32px;
+
+}
+/* ================== single room ========================= */
+.btn_div{
+    margin-bottom: 30px;
+}
+.room_iconList{
+    border: 0;
+}
+/* =======================activity====================== */
+.sec-title2 h3{
+    left: 0 !important;
+    top:5px;
+}
+.contact_btn{
+    margin: 0;
+}
+
+
+}
+
+@media screen and (max-width: 650px){
+    .header{
+        display: none;
+}
+.header_row{
+    display: none;
+}
+.navbar_div{
+    display: none;
+}
+.navv{
+    background: rgba(255,255,255,0.2);
+    top: 0px;
+}
+.hide_navBar{
+    position: relative;
+    display: block;
+}
+.img_text{
+    left: 18%;
+}
+.img_text h2{
+    font-size: 50px;
+}
+#myBtn i{
+    font-size: 14px;
+}
+#myBtn {
+    padding: 4px 8px;
+    right: 15px;
+}
+.tag2{
+    font-size: 35px;
+}
+.booking_schedule{
+   
+    position: relative;
+}
+.logo{
+    display: inline;
+}
+.logo img{
+   margin: 5px;
+    height: 37px;
+}
+.booking_boxOuter{
+    padding-right: 15px !important;
+}
+.booking_box{
+padding-bottom: 0px;
+}
+.booking_form .form-group input, select{
+    padding-top: 0px;
+}
+.booking_form .form-group{
+    border-bottom: 0;
+}
+.welcome_div::before{
+    display: none;
+}
+.welcome_div{
+    margin-top: 30px;
+}   
+.gallery_image img{
+    max-height: 250px;
+}
+/* ============about page================== */
+.about_box h2{
+    font-size: 40px;
+    text-align: center;
+}
+.tag8{
+    text-align: center;
+}
+#icon_title{
+    text-align: center;
+    margin-bottom: 20px;    
+    margin-top: 20px;
+}
+#icon_title::after{
+   top: 35px;
+
+   left: 40%;
+}
+/* ================== single room ========================= */
+.btn_div{
+    margin-bottom: 30px;
+}
+.room_iconList{
+    border: 0;
+}
+/* =======================activity====================== */
+.sec-title2 h3{
+    left: 19%;
+    top:5px;
+
+}
+
+}
+@media screen and (max-width: 770px){
+
+    .header{
+        display: none;
+}
+.header_row{
+    display: none;
+}
+.navbar_div{
+    display: none;
+}
+.navv{
+    background: rgba(255,255,255,0.2);
+    top: 0px;
+}
+.hide_navBar{
+    position: relative;
+    display: block;
+}
+.img_text{
+    left: 18%;
+}
+.img_text h2{
+    font-size: 50px;
+}
+#myBtn i{
+    font-size: 14px;
+}
+#myBtn {
+    padding: 4px 8px;
+    right: 15px;
+}
+.tag2{
+    font-size: 35px;
+}
+.booking_schedule{
+   
+    position: relative;
+}
+.logo{
+    display: inline;
+}
+.logo img{
+   margin: 5px;
+    height: 37px;
+}
+.booking_boxOuter{
+    padding-right: 15px !important;
+}
+.booking_box{
+padding-bottom: 0px;
+}
+.booking_form .form-group input, select{
+    padding-top: 0px;
+}
+.booking_form .form-group{
+    border-bottom: 0;
+}
+.welcome_div::before{
+    display: none;
+}
+.welcome_div{
+    margin-top: 30px;
+}   
+.gallery_image img{
+    max-height: 250px;
+}
+/* ============about page================== */
+.tag8{
+    text-align: center;
+}
+#icon_title{
+    text-align: center;
+    margin-bottom: 20px;    
+    margin-top: 20px;
+}
+#icon_title::after{
+   top: 35px;
+
+   left: 40%;
+}
+/* ================== single room ========================= */
+.btn_div{
+    margin-bottom: 30px;
+}
+.room_iconList{
+    border: 0;
+}
 
 }

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/hover.css">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap-grid.css" rel="stylesheet" type="text/css" > 
 
@@ -72,6 +73,23 @@
         <div class="container ">
                 <div class="row mx-0">
                     <div class="col-md-12">
+                            <div class="hide_navBar">
+                                    <div id="mySidenav" class="sidenav">
+                                        <a href="javascript:void(0)" class="closebtn"               onclick="closeNav()">&times;</a> 
+                                        <a href="index.html">Home</a>  
+                                        <a href="about.html">About Us</a>
+                                        <a href="restaurant.html">Restaurant</a>
+                                        <a href="rooms.html">Rooms</a>
+                                        <a href="wedding.html">Events</a>
+                                        <a href="gallery.html">gallery</a>
+                                        <a href="activity.html">Activities</a>
+                                      
+                                        <a href="#">Contact</a>
+                                    </div>
+                                   <div onclick="openNav()" class="toggle">&#9776; </div>
+                                  <div class="logo"> <a  href="index.html"><img  src="images/LOGO.png" alt="logo"></a>     
+                                </div>
+                            </div>
                            <div class="navbar_div">
                                 <ul class="navbar">
                                         <li><a href="index.html" class="design">Home</a></li>
@@ -122,7 +140,7 @@
 </div>
    <!-- ==============================slider============================== -->
 <div class="slider1">
-    <div id="demo" class="carousel slide" data-ride="carousel" >
+    <div id="demo" class="carousel slide">
 
             <!-- The slideshow -->
             <div class="carousel-inner">
@@ -157,73 +175,77 @@
                 <span class="carousel-control-next-icon "></span>
             </a>  
    <!-- ===========================booking div================= -->
-            <div class="  booking_schedule">
-                    <div class="container booking_div">
-                       <form class="booking_form">
-                           <div class="row">
-                          
-                              <div class="col-md-9">
-                                   <div class="row ">
-                                       <div class="col-md-3 pr-0 ">
-                                           <div class="booking_box"> <p>Arrival Date</p>
-                                               <div class="form-group  ">
-                                                   <input class="form-control" id="date"  type="date">
-                                               </div> 
-                                           </div>
-                                       </div>
-                                       <div class="col-md-3 pr-0">
-                                               <div class=" booking_box"> <p>Departure Date</p> 
-                                                   <div class="form-group  ">
-                                                           <input class="form-control" id="date"   type="date">
-                                                   </div> 
-                                               </div>
-                                       </div>
-                                       <div class="col-md-3  pr-0">
-                                           <div class="booking_box"> <p>Adults</p>
-                                               <div class="form-group">
-                                                   <select id="adults" name="adults">
-                                                       <option value="one">1</option>
-                                                       <option value="two">2</option>
-                                                       <option value="three">3</option>
-                                                     </select>
-                                               </div> 
-                                           </div>
-                                       </div>
-                                       <div class="col-md-3 pr-0 ">
-                                           <div class="booking_box"> <p>Children</p> 
-                                               <div class="form-group">
-                                                   <select id="adults" name="adults">
-                                                       <option value="one">1</option>
-                                                       <option value="two">2</option>
-                                                       <option value="three">3</option>
-                                                     </select>
-                                               </div> 
-                                       </div>
+    <div class="  booking_schedule">
+            <div class="container booking_div">
+                <form class="booking_form">
+                    <div class="row">
+                    
+                        <div class="col-md-9">
+                            <div class="row ">
+                                <div class="col-md-3 booking_boxOuter">
+                                    <div class="booking_box"> <p>Arrival Date</p>
+                                        <div class="form-group  ">
+                                            <input class="form-control" id="date"  type="date">
+                                        </div> 
                                     </div>
                                 </div>
-                              </div>
-                              <div class="col-md-3">
-                               <div class="checking_logo">
-                                   <a href="#"> <p>Check  Availability</p></a>
-                               </div>
-                           </div>
-                           </div>
-                   </form>
-                   </div>
-            </div>
-    </div>
+                                <div class="col-md-3  booking_boxOuter">
+                                        <div class=" booking_box"> <p>Departure Date</p> 
+                                            <div class="form-group  ">
+                                                    <input class="form-control" id="date"   type="date">
+                                            </div> 
+                                        </div>
+                                </div>
+                                <div class="col-md-3  booking_boxOuter">
+                                    <div class="booking_box"> <p>Adults</p>
+                                        <div class="form-group">
+                                            <select id="adults" name="adults">
+                                                <option value="one">1</option>
+                                                <option value="two">2</option>
+                                                <option value="three">3</option>
+                                                </select>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="col-md-3  booking_boxOuter">
+                                    <div class="booking_box"> <p>Children</p> 
+                                        <div class="form-group">
+                                            <select id="adults" name="adults">
+                                                <option value="one">1</option>
+                                                <option value="two">2</option>
+                                                <option value="three">3</option>
+                                                </select>
+                                        </div> 
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="checking_logo">
+                                <a href="#"> <p>Check  Availability</p></a>
+                            </div>
+                    </div>
+                </div>
+            </form>
+     </div>
+    
+ </div>
  </div>
 
 <!-- ======================== on top button==================================== -->
 <button  id="myBtn" title="Go to top" class="top_btn"> 
-    <i class="fas fa-arrow-up"></i></button>
+      <i class="fas fa-arrow-up"></i>  
+     <!-- <i class="fas fa-angle-up"></i> -->
+    
+</button>
 
 
 <!-- ==========================welcome section================== -->
 <section class="welcome_sectoin text-center"> 
         <h3 class="tag1">Welcome To </h3>
-        <h1 class="tag2">Sparta Plaza Hotel</h1>
-<div class="welcome_div">
+        <h1 class="tag2">Sparta Plaza Hotel</h1><br>
+        <img src="images/title-icon.png" alt="images">
+  <div class="welcome_div">
     <div class="container ">
           <div class="row">
              <div class="col-md-5">
@@ -240,7 +262,7 @@
                                    
                                    They key is to have every key, the key to open every door. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started.
                                    
-                                   </p>
+                                </p>
                        </div>
           
                 </div>
@@ -298,7 +320,7 @@
     <div class="container">
         <div class="row">
               
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <div class="row">
                     <div class="col-md-6 ">
                         <div class="facilities_div text-left">
@@ -324,7 +346,7 @@
 
                         </div>
                     </div>
-                    <div class="col-md-6 pl-0">
+                    <div class="col-md-6 ">
                         <div class="facilities_div text-left">
                                 
                             <ul class="facilities_icon">
@@ -347,7 +369,7 @@
                     
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5">
                
                 <div class=" facility_image">
                     <div class="pic3">
@@ -583,7 +605,7 @@
         </div>
     </div>
     <div class="gallary_tab">
-       <span> <a href="#">GALLERY</a></span>
+       <span> <a href="gallery.html" target="_blank">GALLERY</a></span>
     </div>
 </section>
 <!-- ====================================footer============================== -->
@@ -603,24 +625,32 @@
                             </ul>
                 </div>
                 <div class="col-md-2">
-                        <p id="heading">Company</p>
-                        <ul class="addrs2">
-                                <li> <a href="#"> Home</a></li>
-                                <li> <a href="#"> About us</a></li>
-                                <li> <a href="#"> Room</a></li>
-                                <li> <a href="#"> Gallery</a></li>
+                    <p id="heading">Company</p>
+                    <ul class="addrs2">
+                        <li> 
+                            <a href="#" class="hvr-underline-from-left"> Home</a></li>
+                        <li> 
+                            <a href="#" class="hvr-underline-from-left"> About us</a></li>
+                        <li> 
+                             <a href="#" class="hvr-underline-from-left"> Room</a></li>
+                        <li> 
+                            <a href="#" class="hvr-underline-from-left"> Gallery</a></li>
 
-                            </ul>
+                    </ul>
                 </div>
                 <div class="col-md-2">
-                        <p id="heading">Services</p>
-                        <ul class="addrs2">
-                                <li> <a href="#"> Home</a></li>
-                                <li> <a href="#"> About us</a></li>
-                                <li> <a href="#"> Room</a></li>
-                                <li> <a href="#"> Gallery</a></li>
+                    <p id="heading">Services</p>
+                    <ul class="addrs2">
+                        <li> 
+                            <a href="#" class="hvr-underline-from-left"> Home</a></li>
+                        <li>
+                             <a href="#" class="hvr-underline-from-left"> About us</a></li>
+                        <li>
+                             <a href="#" class="hvr-underline-from-left"> Room</a></li>
+                        <li> 
+                            <a href="#" class="hvr-underline-from-left"> Gallery</a></li>
 
-                            </ul>
+                    </ul>
                 </div>
                 <div class="col-md-4">
                         <p id="heading">Sign up for newletter</p>
@@ -677,25 +707,25 @@
 <script src="owl.carousel.min.js"></script>
         <script src="jquery.js"></script>
 
-     <script>
+     <!-- <script>
 
         $(document).ready(function(){
            $(window).scroll(function(){
              var scroll = $(window).scrollTop();
-              if (scroll > 200) {
-                  $(".navv").css("background" , "black");
+              if (scroll > 55) {
+                  $(".navv").css("transtation" , ".2s");
                   $(".sub-menu").css("background" , "black");
                   $(".navv").addClass('stick_tab_1');
                 }
    
                else{
-                    $(".navv").css("background" , "rgba(255,255,255,0.2)");
+                    // $(".navv").css("background" , "rgba(255,255,255,0.2)");
                     $(".navv").removeClass('stick_tab_1'); 
-                    $(".sub-menu").css("background" , "rgba(255,255,255,0.2)");   	
+                     $(".sub-menu").css("background" , "rgba(255,255,255,0.2)");   	
                }
            })
        })
-   </script> 
+   </script>  -->
     
 <script>
       /*Scroll to top when arrow up clicked BEGIN*/
@@ -716,7 +746,15 @@ $(document).ready(function() {
 
 });
 </script>
-
+<script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
 
     </body>
     </html>

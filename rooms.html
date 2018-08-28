@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/rooms.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/hover.css">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap-grid.css" rel="stylesheet" type="text/css" > 
 
@@ -37,6 +39,23 @@
         <div class="container ">
                 <div class="row mx-0">
                     <div class="col-md-12">
+                            <div class="hide_navBar">
+                                    <div id="mySidenav" class="sidenav">
+                                        <a href="javascript:void(0)" class="closebtn"               onclick="closeNav()">&times;</a> 
+                                        <a href="index.html">Home</a>  
+                                        <a href="about.html">About Us</a>
+                                        <a href="restaurant.html">Restaurant</a>
+                                        <a href="rooms.html">Rooms</a>
+                                        <a href="wedding.html">Events</a>
+                                        <a href="gallery.html">gallery</a>
+                                        <a href="activity.html">Activities</a>
+                                      
+                                        <a href="#">Contact</a>
+                                    </div>
+                                   <div onclick="openNav()" class="toggle">&#9776; </div>
+                                  <div class="logo"> <a  href="index.html"><img  src="images/LOGO.png" alt="logo"></a>     
+                                </div>
+                            </div>
                            <div class="navbar_div">
                                 <ul class="navbar">
                                      <li>
@@ -109,7 +128,7 @@
 <section class="rooms_Sec">
     <div class="container">
         <div class="row">
-             <div class="col-md-6 pl-0">
+             <div class="col-md-6 ">
                  <div class="rooms_detailDiv">
                      <div class="room_Img">
                          <img src="images/room-1.jpg" alt="images">
@@ -150,7 +169,7 @@
                      </div>
                  </div>
              </div>
-             <div class="col-md-6 pr-0">
+             <div class="col-md-6 ">
                     <div class="rooms_detailDiv">
                         <div class="room_Img">
                             <img src="images/room-2.jpg" alt="images">
@@ -194,7 +213,7 @@
         </div>
 <!-- ================================= 2nd row=================-->
         <div class="row">
-                <div class="col-md-6 pl-0">
+                <div class="col-md-6 ">
                     <div class="rooms_detailDiv">
                         <div class="room_Img">
                             <img src="images/room-3.jpg" alt="images">
@@ -235,7 +254,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 pr-0">
+                <div class="col-md-6">
                        <div class="rooms_detailDiv">
                            <div class="room_Img">
                                <img src="images/room-4.jpg" alt="images">
@@ -296,25 +315,33 @@
                                </ul>
                    </div>
                    <div class="col-md-2">
-                           <p id="heading">Company</p>
-                           <ul class="addrs2">
-                                   <li> <a href="#"> Home</a></li>
-                                   <li> <a href="#"> About us</a></li>
-                                   <li> <a href="#"> Room</a></li>
-                                   <li> <a href="#"> Gallery</a></li>
-   
-                               </ul>
-                   </div>
-                   <div class="col-md-2">
-                           <p id="heading">Services</p>
-                           <ul class="addrs2">
-                                   <li> <a href="#"> Home</a></li>
-                                   <li> <a href="#"> About us</a></li>
-                                   <li> <a href="#"> Room</a></li>
-                                   <li> <a href="#"> Gallery</a></li>
-   
-                               </ul>
-                   </div>
+                        <p id="heading">Company</p>
+                        <ul class="addrs2">
+                            <li> 
+                                <a href="#" class="hvr-underline-from-left"> Home</a></li>
+                            <li> 
+                                <a href="#" class="hvr-underline-from-left"> About us</a></li>
+                            <li> 
+                                 <a href="#" class="hvr-underline-from-left"> Room</a></li>
+                            <li> 
+                                <a href="#" class="hvr-underline-from-left"> Gallery</a></li>
+    
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <p id="heading">Services</p>
+                        <ul class="addrs2">
+                            <li> 
+                                <a href="#" class="hvr-underline-from-left"> Home</a></li>
+                            <li>
+                                 <a href="#" class="hvr-underline-from-left"> About us</a></li>
+                            <li>
+                                 <a href="#" class="hvr-underline-from-left"> Room</a></li>
+                            <li> 
+                                <a href="#" class="hvr-underline-from-left"> Gallery</a></li>
+    
+                        </ul>
+                    </div>
                    <div class="col-md-4">
                            <p id="heading">Sign up for newletter</p>
                            <div class="addrs_div4">
@@ -404,5 +431,15 @@ $(document).ready(function() {
 
 });
 </script>
+
+<script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
 </body>
 </html>
